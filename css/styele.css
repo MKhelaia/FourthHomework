@@ -1,0 +1,8 @@
+.block{
+    display: flex;
+    background-color: blue;
+}
+.inline{
+    background-color: red;
+    display: flex;
+}
