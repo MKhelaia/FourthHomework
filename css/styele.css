@@ -47,7 +47,12 @@ li{
 }
 .vector{
     width: 39.97px;
-    height:40px;
+    height:39.99px;
+    padding: 30px 30px 30px 30px;
+}
+.uli{
+    width: 39.97px;
+    height:39.99px;
     padding: 30px 30px 30px 30px;
 }
 .square{
@@ -73,4 +78,22 @@ li{
 .fers-foto{
     height: 512px;
     width: 380px;
+}
+.secondpst{
+    margin-top: 40px;
+}
+.girl{
+    margin-right: 20px;
+    width: 280px;
+    height: 260px;
+}
+.boy{
+    width: 280px;
+    height: 260px;
+}
+.asd{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
 }
