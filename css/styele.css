@@ -24,12 +24,15 @@
 .a-tag-red{
     color: #A62B28;
     margin-right: 38px;
+    font-size: 24px;
 }
 .a-tag-grey{
     color: #717276;
     margin-right: 38px;
+    font-size: 24px;
 }
 .a-tag-grey-without{
+    font-size: 24px;
     color: #717276;
 }
 /* main poster */
