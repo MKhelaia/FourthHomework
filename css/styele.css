@@ -1,3 +1,12 @@
+/* fonts */
+@font-face{
+    font-family: 'alk';
+    src: url(../font/alk.otf);
+}
+@font-face{
+    font-family: 'dejavu';
+    src: url(../font/dejavu-sans-bold.ttf);
+}
 /* header */
 .header-div-nav-backg{
     width: 100%;
@@ -25,15 +34,18 @@
     color: #A62B28;
     margin-right: 38px;
     font-size: 24px;
+    font-family: 'alk', sans-serif;
 }
 .a-tag-grey{
     color: #717276;
     margin-right: 38px;
     font-size: 24px;
+    font-family: 'alk', sans-serif;
 }
 .a-tag-grey-without{
     font-size: 24px;
     color: #717276;
+    font-family: 'alk', sans-serif;
 }
 /* main poster */
 .div-main-poster{
@@ -71,6 +83,7 @@
     color: #717276;
     display: flex;
     align-items: center;
+    font-family: 'dejavu', sans-serif;
 }
 .box-h2-flex{
     display: flex;
@@ -100,11 +113,14 @@ span{
     margin-top: 50px;
     font-size: 24px;
     color: #717276;
+    font-family: 'dejavu', sans-serif;
 }
 .book{
     margin-top: 8px;
     font-size: 24px;
     color: #000000;
+    font-family: 'alk', sans-serif;
+    
 }
 .price{
     font-weight:700;
@@ -135,6 +151,7 @@ span{
     color: #717276;
     display: flex;
     align-items: center;
+    font-family: 'dejavu', sans-serif;
 }
 .fotogallery{
     margin-top: 40px;
@@ -170,12 +187,14 @@ span{
 .a-tag-black{
     font-size: 24px;
     color: #000000;
+    font-family: 'alk', sans-serif;
 }
 .a-tag-black-center{
     display: block;
     font-size: 24px;
     color: #000000;
     margin:8px 0px;
+    font-family: 'alk', sans-serif;
 }
 .footerimg{
     margin-right: 21px;
