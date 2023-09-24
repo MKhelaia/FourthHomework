@@ -1,11 +1,11 @@
 /* fonts */
 @font-face{
     font-family: 'alk';
-    src: url(./font/alk.otf);
+    src: url(../font/alk.otf);
 }
 @font-face{
     font-family: 'dejavu';
-    src: url(./font/dejavu-sans-bold.ttf);
+    src: url(../font/dejavu-sans-bold.ttf);
 }
 /* header */
 .header-div-nav-backg{
