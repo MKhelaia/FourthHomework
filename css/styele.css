@@ -1,157 +1,193 @@
-.headnav {
+/* header */
+.header-div-nav-backg{
+    width: 100%;
     height: 200px;
-    width: auto;
     background-color: #D9D9D9;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 130px;
 }
-
-.head-logo {
+.mainlogo{
     width: 178px;
     height: 100px;
+    margin-top: 50px;
+    margin-left: 130px;
 }
-
-.nav-list {
+.div-header-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.div-nav-list{
+    margin-top: 85px;
+    margin-right: 130px;
+}
+.ul-nav-list{
     display: flex;
 }
-
-li {
-    margin-left: 38px;
-}
-
-.navred {
+.a-tag-red{
     color: #A62B28;
+    margin-right: 38px;
 }
-
-.navgray {
+.a-tag-grey{
+    color: #717276;
+    margin-right: 38px;
+}
+.a-tag-grey-without{
     color: #717276;
 }
-
-.women-poster-foto {
+/* main poster */
+.div-main-poster{
+    margin-top: 160px;
+    width: 100%;
+}
+.div-min-poster-centr{
+    display: flex;
+    justify-content: center;
+}
+.min-poster{
     width: 1180px;
     height: 287px;
 }
-
-.tegeta {
-    display: block;
+/* main section */
+.first-section{
     margin-top: 160px;
-    justify-content: center;
     width: 100%;
-}
-
-.women-poster {
-    margin-top: 160px;
     display: flex;
-    justify-content: center;
-    width: 100%;
+    justify-content: center
 }
-
-.posters {
-    width: 100%;
-    height: 856px;
-    display: flex;
-    justify-content: center;
-}
-
-.vector {
-    width: 39.97px;
-    height: 39.99px;
-    padding: 30px 30px 30px 30px;
-}
-
-.uli {
-    width: 39.97px;
-    height: 39.99px;
-    padding: 30px 30px 30px 30px;
-}
-
-.square {
+.div-box{
     width: 100px;
     height: 100px;
     background-color: #A62B28;
 }
-
-.ferst-logo {
-    display: flex;
-    margin-top: 160px;
+.first-section-logo{
+    width: 38.72px;
+    height: 39.99px;
+    margin: 30.01px 31.25px;
 }
-
-.ferst-post-name {
-    margin: 40px 40px;
-    color: #717276;
+.first-section-title{
+    margin-left: 40px;
     font-size: 32px;
+    color: #717276;
+    display: flex;
+    align-items: center;
 }
-
-.fotocentr {
+.box-h2-flex{
+    display: flex;
+}
+.first-section-img-1{
+    width: 380px;
+    height: 512px;
+}
+.first-section-img-2{
+    width: 380px;
+    height: 512px;
     margin: 0px 20px;
 }
-
-.ferstpostfoto {
-    margin-top: 40px;
-}
-
-.fers-foto {
-    height: 512px;
+.first-section-img-3{
     width: 380px;
+    height: 512px;
 }
-
-.secondpst {
+.img-div{
     display: flex;
-    width: 1180px;
     margin-top: 40px;
 }
-
-.girl {
-    margin-right: 20px;
-    width: 280px;
-    height: 260px;
+span{
+    display: block;
 }
-
-.boy {
-    width: 280px;
-    height: 260px;
+.author{
+    font-weight:700;
+    margin-top: 50px;
+    font-size: 24px;
+    color: #717276;
 }
-
-.asd {
+.book{
+    margin-top: 8px;
+    font-size: 24px;
+    color: #000000;
+}
+.price{
+    font-weight:700;
+    margin-top: 8px;
+    font-size: 24px;
+    color: #000000;
+}
+.book-info-1{
+    margin-left: 30px;
+}
+.book-info-2{
+    margin-left: 10px; 
+}
+.second-section{
+    margin-top: 160px;
     width: 100%;
-    height: 400px;
+    display: flex;
+    justify-content: center
+}
+.second-section-logo{
+    width: 38.72px;
+    height: 39.99px;
+    margin: 30px 30px;
+}
+.second-section-title{
+    margin-left: 40px;
+    font-size: 32px;
+    color: #717276;
+    display: flex;
+    align-items: center;
+}
+.fotogallery{
+    margin-top: 40px;
+}
+.box-margin{
+    margin-top: 160px;
+    width: 100%;
+}
+.centersecondpost{
     display: flex;
     justify-content: center;
 }
-
-.footerback {
-    margin-top: 260px;
+.fotogallery-1{
+    width: 280px;
+    height: 260px;
+    margin-right: 20px;
+}
+.fotogallery-4{
+    width: 280px;
+    height: 260px;
+}
+/* footer */
+.footer-div{
+    margin-top: 160px;
     width: 100%;
     height: 248px;
     background-color: #D9D9D9;
-
 }
-
-.navlist-1 {
-    color: #000000;
-
+.div-footer-list{
+    display: flex;
+    justify-content: space-between;
 }
-
-.shops {
-    margin: 8px 0px;
+.a-tag-black{
+    font-size: 24px;
     color: #000000;
 }
-
-.SNlogo {
-    width: 100%;
-    display: flex;
+.a-tag-black-center{
+    display: block;
+    font-size: 24px;
+    color: #000000;
+    margin:8px 0px;
 }
-
-.footerlist {
-    display: flex;
-}
-
-.right-padd {
+.footerimg{
     margin-right: 21px;
+    width: 30px;
+    height: 30px;
 }
-.der{
-    Width: 13.13px;
-    Height: 25px;
+.footerimg-1{
+    width: 30px;
+    height: 30px;
+}
+.footer-ul{
+    margin-top:71px;
+    margin-left: 130px;
+}
+.footer-na-logo{
+    margin-top: 71px;
+    margin-right: 130px;
 }
